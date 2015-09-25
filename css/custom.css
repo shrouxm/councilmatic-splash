@@ -2,8 +2,22 @@
 
 body {
   margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
 }
 
-.jumbotron {
+table, p, body {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 900;
+}
+
+.jumbotron, .footer {
   text-align: center;
+}
+
+.footer img {
+    margin-right: 50px;
 }
