@@ -44,14 +44,13 @@
   </head>
 
   <body>
+    <div class='jumbotron'>
+      <h1>Councilmatic</h1>
+      <h2>Your local city council, demystified.</h2>
+      <p>Search, browse, subscribe and comment on your City Council bills, council members and events.</p>
+    </div>
+    
     <div class="container">
-      
-      <div class='bg'></div>
-      <div class='jumbotron'>
-        <h1>Councilmatic</h1>
-        <h2>Your local city council, demystified.</h2>
-        <p>Search, browse, subscribe and comment on your City Council bills, council members and events.</p>
-      </div>
 
       <div class='row'>
         <div class='col-sm-5'>
@@ -152,21 +151,5 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/analytics_lib.js"></script>
-
-    <script>
-        var jumboHeight = $('.jumbotron').outerHeight();
-        function parallax(){
-            var scrolled = $(window).scrollTop();
-            $('.bg').css('height', (jumboHeight-scrolled) + 'px');
-        }
-
-        $(function() {
-            parallax();
-        });
-
-        $(window).scroll(function(e){
-            parallax();
-        });
-    </script>
   </body>
 </html>
