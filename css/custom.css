@@ -37,6 +37,10 @@ h1, h2, h3, h4 {
     color: white;
 }
 
+.jumbotron h1 small {
+    color: white;
+}
+
 .section {
     padding: 60px 60px;
 }
