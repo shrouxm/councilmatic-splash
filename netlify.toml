@@ -1,0 +1,9 @@
+[[redirects]]
+    from = "https://councilmatic.netlify.com/*"
+    to = "https://www.councilmatic.org/:splat"
+    status = 301
+
+[[redirects]]
+    from = "https://councilmatic.org/*"
+    to = "https://www.councilmatic.org/:splat"
+    status = 301
